@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noEmitOnError": false,
+    "noEmit": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "module": "es6",
+    "paths": {
+      "redux": ["node_modules/redux/index.d.ts"],
+      "ember-redux": ["node_modules/ember-redux/index.d.ts"],
+      "seamless-immutable": ["node_modules/seamless-immutable-tsdefs/index.d.ts"],
+      "examplee/*": [
+        "app/*"
+      ],
+      "*": [
+        "types/*"
+      ]
+    }
+  },
+  "include": [
+    "app"
+  ]
+}

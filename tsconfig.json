@@ -5,6 +5,7 @@
     "moduleResolution": "node",
     "strict": true,
     "strictNullChecks": true,
+    "strictFunctionTypes": false,
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
